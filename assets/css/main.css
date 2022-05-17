@@ -113,7 +113,7 @@ a {
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
   color: rgb(251,121,61)
-  text-decoration none; }
+}
   a:hover {
     border-bottom-color: rgb(251,121,61);
     color: rgb(251,121,61) !important; }
@@ -2273,22 +2273,3 @@ button,
     padding-top: 0; }
 
     
-    
-.carrossel{
-  box-shadow: 2px 2px 2px 2px black;
-  overflow: hidden;
-  height: 500px;
-  width: 500px;
-}
-
-.container{
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  transform: translatex(0);
-}
-
-img{
-  object-fit: cover;
-  height: 500px;
-  width: 500px;
-}
